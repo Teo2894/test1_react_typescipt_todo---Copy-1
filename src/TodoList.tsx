@@ -5,7 +5,28 @@ Button to import text to original field
 List of notes in left field
 Change all names from todo-list related stuff.
 Clean up unused code
+https://mui.com/
+https://storybook.js.org/
+npm run storybook
+
+
+
+class Note { 
+    title: string;
+    text: string
+}
+
+const note1 = new Note (
+    title = "Note1Title";
+    text = "Note1Text"
+)
+const note2 = new Note (
+    title: "Note2Title";
+    text: "Note2Text"
+)
 */
+
+
 
 
 export const TodoList: React.FC = () => {

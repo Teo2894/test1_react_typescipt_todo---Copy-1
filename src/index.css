@@ -36,6 +36,7 @@ input {
     border: 1px solid #ccc;
     margin-left: 10px;
     margin-top: 40px;
+    overflow-y: scroll;
     resize: none;
     
 
