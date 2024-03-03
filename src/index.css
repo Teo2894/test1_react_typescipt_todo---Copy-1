@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-background-color: #e0eef3;
-font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0eef3;
+    font-family: "Roboto", sans-serif;
 }
 
 .main-container {
@@ -19,7 +19,7 @@ font-family: "Roboto", sans-serif;
 input {
     height: 350px;
     width: 700px;
-    background-color:#ffffff;
+    background-color: #ffffff;
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -27,10 +27,10 @@ input {
     margin-top: 40px;
 }
 
-#messageBox{
+#messageBox {
     height: 350px;
     width: 600px;
-    background-color:#ffffff;
+    background-color: #ffffff;
     border-radius: 5px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -38,13 +38,13 @@ input {
     margin-top: 40px;
     overflow-y: scroll;
     resize: none;
-    
+
 
 }
 
-.flex-container { 
-    display: flex; 
-  } 
+.flex-container {
+    display: flex;
+}
 
 li {
     margin-top: 15px;
