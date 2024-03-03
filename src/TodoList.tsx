@@ -5,7 +5,8 @@ Button to import text to original field
 List of notes in left field
 Change all names from todo-list related stuff.
 Clean up unused code
-https://mui.com/
+
+https://mui.com/ - use grids m.m.
 https://storybook.js.org/
 npm run storybook
 
@@ -34,22 +35,22 @@ export const TodoList: React.FC = () => {
         <div className="main-container">
             <h1>MedBench</h1>
             <h2>writer</h2>
-                <div class="flex-container"> 
-                    <div>
-                        <textarea id="messageBox"
-                        placeholder="Original" 
+            <div class="flex-container">
+                <div>
+                    <textarea id="messageBox"
+                        placeholder="Original"
                         onChange={(e) => setInput(e.currentTarget.value)}
-                        ></textarea>
-                    </div> 
-                    <div>
-                        <textarea id="messageBox"
-                        placeholder="Translation" 
+                    ></textarea>
+                </div>
+                <div>
+                    <textarea id="messageBox"
+                        placeholder="Translation"
                         onChange={(e) => setInput(e.currentTarget.value)}
-                        ></textarea>
-                    </div> 
-                </div> 
+                    ></textarea>
+                </div>
+            </div>
             <ul>test</ul>
-            
+
 
         </div>
     );

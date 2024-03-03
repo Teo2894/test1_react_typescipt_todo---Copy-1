@@ -17,6 +17,7 @@
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "mui": "^0.0.1",
+    "pretty": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
