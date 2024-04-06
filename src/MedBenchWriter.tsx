@@ -71,7 +71,7 @@ const gridBoxActive = {
 
 
 
-export const TodoList: React.FC = () => {
+export const MedBenchWriter: React.FC = () => {
     return (
         <div className="main-container">
             <h1>MedBench</h1>

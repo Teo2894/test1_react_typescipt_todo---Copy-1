@@ -1,9 +1,9 @@
-import { TodoList } from "./TodoList";
+import { MedBenchWriter } from "./MedBenchWriter";
 
 function App() {
     return (
         <div className="App">
-            <TodoList />
+            <MedBenchWriter />
         </div>
     );
 
